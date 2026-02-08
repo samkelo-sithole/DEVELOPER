@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: century;
+    
+}
+
+.main{
+    background-image:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/nigel-hoare-Jpz3YYSU-xg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+ul{
+   float: right;
+   margin-right:20px;
+   padding-top: 40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    padding:10px;
+    color: white;
+}
+
+#LL{
+    transform: translate(-250px);
+    padding-left: 50px;
+    
+}
+
+.active{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+
+.active:hover{
+    background-color: white;
+}
+
+.Li:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.title{
+   position:absolute;
+   top:30%;
+   left:18%;
+   font-size: 130px;
+   
+}
+
+.Pr{
+    color:rgb(255, 255, 255);
+    
+
+    animation:titlecolor;
+    animation-duration:10s;
+    animation-timing-function: ease-out;
+    animation-iteration-count:infinite
+    
+    
+}
+
+#Pr2{
+    padding-left: 120px;
+}
+
+#Sup{
+    background-color: rgba(6, 139, 255, 0.767);
+    border-radius: 10px;
+    color: black;
+}
+#Sup:hover{
+    background-color: white;
+    color:darkgray;
+}
+
+#Lin{
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
+
+}
+
+#Lin:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+}
+
+.icon{
+   position: absolute;
+   top:0px;
+   left:15px;
+   color: white;
+   width: 100px;
+   height: 100px;
+}
+
+.scroll{
+    position: relative;
+    top:0px;
+    left:0%;
+    height: 80px;
+    width: 80px;
+}
+
+.arrow{
+    position:absolute;
+    left:47%;
+    top:510px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 1000px;
+
+    animation:updownmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes updownmove{
+    from{margin-top:30px;}
+    to{margin-top: -30;}
+}
+
+@keyframes titlecolor{
+    0%{text-shadow: 0px 0px 40px rgba(128, 128, 128, 0.603);}
+    40%{text-shadow: 0px 0px 30px rgba(169, 169, 169, 0.986);}
+    50%{text-shadow: 0px 0px 20px whitesmoke;}
+    100%{text-shadow: 0px 0px 10px white;}
+    50%{text-shadow: 0px 0px 20px whitesmoke;}
+    40%{text-shadow: 0px 0px 30px rgba(169, 169, 169, 0.986);}
+    0%{text-shadow: 0px 0px 40px rgba(128, 128, 128, 0.603);}
+}
+
+
+
+
+
+

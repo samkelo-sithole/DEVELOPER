@@ -1,0 +1,15 @@
+@keyframes button{
+    100%{ transform: translateY(20px); }
+}
+
+.arrow{
+    position: absolute;
+    left: 47%;
+    top: 510px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 1000px;
+
+    animation: button 2s ease-out infinite;
+}
