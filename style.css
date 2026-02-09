@@ -26,6 +26,8 @@ ul li{
 ul li a{
     padding:10px;
     color: white;
+    text-decoration:none;
+    border:1px solid white;
 }
 
 #LL{
